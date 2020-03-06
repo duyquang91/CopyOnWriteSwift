@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/duyquang91/CopyOnWriteSwift'
   s.social_media_url = 'https://www.facebook.com/quangmin91'
   s.authors = { "Steve Dao" => "daoduyquang91@gmail.com" }
-  s.source = { :git => "https://github.com/duyquang91/CopyOnWriteSwift.git", :tag  => "v"+s.version.to_s }
+  s.source = { :git => "https://github.com/duyquang91/CopyOnWriteSwift.git", :tag  => s.version.to_s }
   s.platforms = { :ios => "11.0", :osx => "10.13", :tvos => "11.0", :watchos => "5.0" }
   s.requires_arc = true
   s.swift_version = '5.0'

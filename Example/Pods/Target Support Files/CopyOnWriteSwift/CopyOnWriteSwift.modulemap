@@ -1,0 +1,6 @@
+framework module CopyOnWriteSwift {
+  umbrella header "CopyOnWriteSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

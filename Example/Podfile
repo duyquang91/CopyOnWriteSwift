@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CopyOnWriteSwift_Tests' do
+  pod 'CopyOnWriteSwift', :path => '../'
+  
+  
+end

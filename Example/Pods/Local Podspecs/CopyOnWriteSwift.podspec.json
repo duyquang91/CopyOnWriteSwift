@@ -1,0 +1,22 @@
+{
+  "name": "CopyOnWriteSwift",
+  "version": "0.1.0",
+  "summary": "A short description of CopyOnWriteSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Steve/CopyOnWriteSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Steve": "steve_dao@ntucenterprise.sg"
+  },
+  "source": {
+    "git": "https://github.com/Steve/CopyOnWriteSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CopyOnWriteSwift/Classes/**/*"
+}

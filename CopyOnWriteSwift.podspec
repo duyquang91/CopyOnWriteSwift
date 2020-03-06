@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CopyOnWriteSwift'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Copy On Write mechanism by annotation'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Implementing Copy On Write mechanism for any Value types with @CopyOnWrite annot
 
   s.source_files = 'CopyOnWriteSwift/Classes/**/*'
   s.swift_versions = '5.0'
-  
+
   # s.resource_bundles = {
   #   'CopyOnWriteSwift' => ['CopyOnWriteSwift/Assets/*.png']
   # }

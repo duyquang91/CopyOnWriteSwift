@@ -61,3 +61,10 @@ github 'Duyquang91/CopyOnWriteSwift'
 ## License
 
 CopyOnWriteSwift is available under the MIT license. See the LICENSE file for more info.
+
+---
+
+## About header photo
+
+The header photo is a famous place named [Cầu Vàng (Golden Bridge)](https://en.wikipedia.org/wiki/Golden_Bridge_(Vietnam))
+ in Da Nang, VietNam. If you are going to visit VietName, don't forget to take a photo there!

@@ -17,7 +17,7 @@ Copy-on-write is a common computing technique that helps boost performance when 
 
 This problem is solved by using copy-on-write: when you point two variables at the instance, they both point to the same underlying data, if you modify the second variable, compiler takes a full copy at that point so that only the second variable is modified - the first isn't changed.
 
-In Swift, only some kinds of value type are implemented under copy-on-write such as **Array**. We're here to bring copy-on-write to support all value types in Swift by using a simple annotation: `@CopyOnWrite`
+In Swift, only some kinds of value type are implemented under copy-on-write such as **Array**, **Dictionaty**, **Set**, **String** ... I'm here to bring copy-on-write to support all value types in Swift by using a simple annotation: `@CopyOnWrite`
 
 ```swift
 import CopyOnWriteSwift
@@ -43,7 +43,7 @@ var foo2 = foo1         // memory_address: 0x6080000a88a0
 
 ```
 
-This library was inspired by [Writing High-Performance Swift Code](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#advice-use-copy-on-write-semantics-for-large-values) from [Apple/swift](https://github.com/apple/swift)
+> This library was inspired by [Writing High-Performance Swift Code](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#advice-use-copy-on-write-semantics-for-large-values) from [Apple/swift](https://github.com/apple/swift). I already created an [article on LinkedIn](https://www.linkedin.com/pulse/copy-on-write-swift-steve-dao/) to talk more about this topic, feel free to take a look.
 
 ## Installation
 
